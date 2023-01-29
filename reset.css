@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+:root {
+    --salmao: #FF594E;
+    --cinza:  #484B57;
+    --azulMarinho: #3B4157;
+    --brancoCinza: #F5F5F5;
+    --branco: #fff;
+}

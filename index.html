@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Doutor Nature</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/3d5620be10.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header id="section1">
+      <div
+        class="header container d-flex flex-column align-items-center mw-100 overflow-hidden"
+      >
+        <img class="headerLogo" src="./asset/logo_Doutor-Nature.svg" alt="" />
+        <div class="headerInfo p-5">
+          <h2>
+            O jeito certo de hidratar a pele <br />
+            tipo "crepe"
+          </h2>
+          <p>E porque a indústria de cosméticos nunca falou sobre isso...</p>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/5lDhkpEGgj8"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <i onclick="arrowDownClick()" class="fa fa-solid fa-arrow-down fa-2x p-5" style="cursor: pointer;"></i>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="section2">
+        <div class="container d-flex flex-column align-items-center mt-5">
+          <h2 class="section2Header">
+            Porque cremes não hidratam <br />
+            esse tipo de pele "crepe"?
+          </h2>
+          <p class="section2P">
+            Descubra uma alternativa mais eficiente.
+          </p>
+          <div class="d-flex flex-row">
+            <div class="text">
+              <article class="d-flex flex-column justify-content-start mt-5">
+                <p>
+                  Em minhas pesquisas descobri que
+                  <b>
+                    cremes hidratantes comuns, não funcionam<br />
+                    em peles finas e ressecadas </b
+                  >, com aparência amassada, que popularmente são<br />
+                  chamadas de "pele crepe".
+                </p>
+                <p>
+                  A razão disso é
+                  <b>
+                    porque existem pequenas rachaduras na superfície desse
+                    tipo<br />
+                    de pele </b
+                  >, por onde a água vaza. Dessa forma, não adianta insistir
+                  aplicando<br />
+                  cremes hidratantes, pois sua pele não vai reter essa
+                  hidratação.
+                </p>
+                <p>
+                  Já quando você ingere alguns compostos específicos, e passa a
+                  hidratar sua pele<br />
+                  de dentro para fora,
+                  <b>aí o jogo vira a seu favor. Active Anti Ox</b> é uma
+                  fórmula que<br />
+                  desenvolvi junto de minha equipe, para ajudar a hidratar e
+                  recuperar a sua pele<br />
+                  <b>agindo de dentro para fora.</b>
+                </p>
+              </article>
+            </div>
+            <div class="doctor">
+              <img src="./asset/doutor-rafael.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="section3"
+        class="cardSection d-flex flex-column align-items-center"
+      >
+        <div class="cardText mt-5">
+          <h5 class="cardOffer p-1"><b>OFERTA ÚNICA</b></h5>
+          <h2>Você não verá preço menor em outro lugar</h2>
+        </div>
+        <div class="cardContainer d-flex mt-5">
+          <div class="card shadow-lg cardLeft d-flex align-items-center p-4">
+            <div class="cardTitle p-3">ESCOLHA SEU PACOTE</div>
+            <div
+              class="d-flex gap-2 mt-3 p-3"
+              role="group"
+              aria-label="Basic example"
+            >
+              <button type="button" class="btn box1 btn-container">
+                <span>1</span><br />
+                CAIXA
+              </button>
+              <button type="button" class="btn box3 btn-container isActive">
+                <span>3</span><br />
+                CAIXAS
+              </button>
+              <button type="button" class="btn box6 btn-container">
+                <span>6</span><br />
+                CAIXAS
+              </button>
+            </div>
+            <div class="prices d-flex flex-column align-items-center  w-100">
+              <p class="mt-3 d-flex flex-column align-items-center justify-content-center align-content-center">
+                <strong class="pricePerBox">R$ 148,60 por caixa</strong>
+                <span class="eco">Economize R$ 136,20</span>
+              </p>
+              <p>
+                <span class="installments"><b>HOJE:</b> 12x <b>R$ 49,99</b></span>
+                <br />
+                <span class="inCash">ou R$ 445,80 à vista</span>
+              </p>
+            </div>
+            <button type="button" class="btn btn-lg buy">Comprar agora</button>
+          </div>
+          <div
+            class="card shadow cardRight d-flex align-items-center p-4 position-relative"
+          >
+            <img
+              class="discount position-absolute top-0 start-100 translate-middle"
+              src="./asset/badge.png"
+              alt=""
+            />
+            <div class="cardTitle cardTitleRight p-3">
+              <p>ASSINE E ECONOMIZE (OPCIONAL)</p>
+            </div>
+            <div class="cardRightText d-flex mt-3">
+              <ul
+                class="ul-box d-flex flex-column  gap-2 mt-2"
+              >
+                  <li>Desconto Máximo Aplicado</li>
+                  <li>Entrega Automática em sua Casa</li>
+                  <li>Menor Preço Garantido / Sem Reajustes</li>
+                  <li>Cancele Quando Qusier / Sem taxas</li>
+              </ul>
+            </div>
+            <div class="subscriber p-2">
+              <p>
+                <img id="subBox" src="./asset/check-icon-mobile.png" alt="" />
+                <b>SIM!</b> Eu quero ser assinante e ganhar <br />
+                <span>DESCONTO!</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="section4" class="d-flex flex-column align-items-center">
+        <div class="results d-flex flex-column align-items-center mt-5">
+          <h2 class="resultsH2">
+            Se não notar resultados, sua <br />
+            compra sai de graça
+          </h2>
+          <span class="resultSpan">Sem perguntas sem pegadinhas...</span>
+        </div>
+        <div
+          class="warranty shadow-lg d-flex flex-row justify-content-center align-items-center gap-5 mt-5 p-4"
+        >
+          <div class="warrantyImg">
+            <img
+              src="./asset/selo-garantia.png"
+              alt="Imagem de selo de garantia de 30 dias"
+            />
+          </div>
+          <div class="warrantyText">
+            <p>
+              Ao fazer o pedido de Active Ox,
+              <b>você está coberto pela nossa garantia de satisfação.</b> Esta
+              é<br />
+              uma política que adotamos, e cumprimos à risca, que visa proteger
+              nossos consumidores, para <br />
+              que eles possam experimentar nossas fórmulas
+              <b>livre de riscos.</b>
+            </p>
+            <p>
+              Se após <b>30 dias</b> você não estiver completamente
+              saitisfeito/a,
+              <b
+                >devolveremos seu dinheiro em <br />
+                forma de crédito,</b
+              >
+              para usar em qualquer outro produto da Doutor Nature - sem
+              perguntas, sem <br />
+              burocracia.
+            </p>
+          </div>
+        </div>
+        <div class="results d-flex flex-column align-items-center mt-5">
+          <h2 class="resultsH2">Veja alguns resultados do Active<br />Anti Ox*</h2>
+          <span class="resultSpan">Experimente e comece a hidratar a sua pele de verdade</span>
+        </div>
+        <div class="d-flex flex-column align-items-center mt-5">
+          <div class="examples1 d-flex flex-row justify-content-center">
+            <img src="./asset/image7.jpg" alt="" />
+            <img src="./asset/image8.jpg" alt="" />
+          </div>
+          <div class="examples2 d-flex flex-row justify-content-center">
+            <img src="./asset/image9.jpg" alt="" />
+            <img src="./asset/image10.jpg" alt="" />
+          </div>
+          <small class="starText mb-5">
+            *Somos honestos e transparentes com nossos clientes, os resultados
+            podem variar de pessoa para pessoa, cada organismo é unico e <br />
+            vai reagir aos compostos de forma diferente. Aproveite a nossa
+            garantia incondicional, compre e avalie você mesmo os resultados.
+            <br />
+            Esta fórmula foi desenvolvida por médico e sua equipe de
+            pesquisadores.
+          </small>
+        </div>
+      </section>
+      <section id="section5" class="d-flex flex-column align-items-center">
+        <div
+          class="section5 d-flex flex-column align-items-center justify-content-center w-100"
+        >
+          <h2 class="questionText mt-5 mb-3">Tire suas dúvidas</h2>
+          <div
+            class="accordion accordion-flush d-flex flex-column w-50 mt-4 mb-5"
+            id="accordionFlushExample"
+          >
+            <div id="accordionItem" class="accordion-item">
+              <div
+                class="accordion-header d-flex p-2 gap-3"
+                type="button"
+                id="flush-headingOne"
+              >
+                <div
+                  class="plus collapsed"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseOne"
+                >
+                  +
+                </div>
+                <p
+                  class="accordion-item"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseOne"
+                >
+                  Do que é feito o Active Anti-OX?
+                </p>
+              </div>
+              <div
+                id="flush-collapseOne"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Commodi beatae deserunt minus a maxime saepe fugiat vel
+                  repudiandae qui rem, ab sed laudantium dolorum unde, quo
+                  facilis. Qui, iste eos.
+                </div>
+              </div>
+            </div>
+            <div id="accordionItem" class="accordion-item">
+              <div
+                class="accordion-header d-flex p-2 gap-3"
+                type="button"
+                id="flush-headingTwo"
+              >
+                <div
+                  class="plus collapsed"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseTwo"
+                >
+                  +
+                </div>
+                <p
+                  class="accordion-item"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseTwo"
+                >
+                  Como devo usar o Active Anti-OX?
+                </p>
+              </div>
+              <div
+                id="flush-collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  2Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+                  praesentium nostrum distinctio quas tempora autem asperiores
+                  aperiam fuga cumque consequuntur similique est totam ex
+                  nesciunt sapiente nihil soluta, enim quia.
+                </div>
+              </div>
+            </div>
+            <div id="accordionItem" class="accordion-item">
+              <div
+                class="accordion-header d-flex p-2 gap-3"
+                type="button"
+                id="flush-headingThree"
+              >
+                <div
+                  class="plus collapsed"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseThree"
+                >
+                  +
+                </div>
+                <p
+                  class="accordion-item"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseThree"
+                >
+                  Active Anti-OX tem contra-indicação?
+                </p>
+              </div>
+              <div
+                id="flush-collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  3Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Commodi beatae deserunt minus a maxime saepe fugiat vel
+                  repudiandae qui rem, ab sed laudantium dolorum unde, quo
+                  facilis. Qui, iste eos.
+                </div>
+              </div>
+            </div>
+            <div id="accordionItem" class="accordion-item">
+              <div
+                class="accordion-header d-flex p-2 gap-3"
+                type="button"
+                id="flush-headingFour"
+              >
+                <div
+                  class="plus collapsed"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFour"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseFour"
+                >
+                  +
+                </div>
+                <p
+                  class="accordion-item"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFour"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseFour"
+                >
+                  Precisa de prescrição médica para comprar?
+                </p>
+              </div>
+              <div
+                id="flush-collapseFour"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingFour"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  4Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+                  praesentium nostrum distinctio quas tempora autem asperiores
+                  aperiam fuga cumque consequuntur similique est totam ex
+                  nesciunt sapiente nihil soluta, enim quia.
+                </div>
+              </div>
+            </div>
+            <div id="accordionItem" class="accordion-item">
+              <div
+                class="accordion-header d-flex p-2 gap-3"
+                type="button"
+                id="flush-headingFive"
+              >
+                <div
+                  class="plus collapsed"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFive"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseFive"
+                >
+                  +
+                </div>
+                <p
+                  class="accordion-item"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFive"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseFive"
+                >
+                  E se o Active Anti-OX não funcionar para mim?
+                </p>
+              </div>
+              <div
+                id="flush-collapseFive"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingFive"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  5Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Commodi beatae deserunt minus a maxime saepe fugiat vel
+                  repudiandae qui rem, ab sed laudantium dolorum unde, quo
+                  facilis. Qui, iste eos.
+                </div>
+              </div>
+            </div>
+            <div id="accordionItem" class="accordion-item">
+              <div
+                class="accordion-header d-flex p-2 gap-3"
+                type="button"
+                id="flush-headingSix"
+              >
+                <div
+                  class="plus collapsed"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseSix"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseSix"
+                >
+                  +
+                </div>
+                <p
+                  class="accordion-item"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseSix"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseSix"
+                >
+                  Quando posso perceber resultados?
+                </p>
+              </div>
+              <div
+                id="flush-collapseSix"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingSix"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  6Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+                  praesentium nostrum distinctio quas tempora autem asperiores
+                  aperiam fuga cumque consequuntur similique est totam ex
+                  nesciunt sapiente nihil soluta, enim quia.
+                </div>
+              </div>
+            </div>
+            <div id="accordionItem" class="accordion-item">
+              <div
+                class="accordion-header d-flex p-2 gap-3"
+                type="button"
+                id="flush-headingSeven"
+              >
+                <div
+                  class="plus collapsed"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseSeven"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseSeven"
+                >
+                  +
+                </div>
+                <p
+                  class="accordion-item"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseSeven"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseSeven"
+                >
+                  Além do Vital 4k o que mais vou receber na minha compra?
+                </p>
+              </div>
+              <div
+                id="flush-collapseSeven"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingSeven"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  7Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Commodi beatae deserunt minus a maxime saepe fugiat vel
+                  repudiandae qui rem, ab sed laudantium dolorum unde, quo
+                  facilis. Qui, iste eos.
+                </div>
+              </div>
+            </div>
+            <div id="accordionItem" class="accordion-item">
+              <div
+                class="accordion-header d-flex p-2 gap-3"
+                type="button"
+                id="flush-headingEight"
+              >
+                <div
+                  class="plus collapsed"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseEight"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseEight"
+                >
+                  +
+                </div>
+                <p
+                  class="accordion-item"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseEight"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseEight"
+                >
+                  Vocês tem uma garantia de satisfação?
+                </p>
+              </div>
+              <div
+                id="flush-collapseEight"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingEight"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  8Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+                  praesentium nostrum distinctio quas tempora autem asperiores
+                  aperiam fuga cumque consequuntur similique est totam ex
+                  nesciunt sapiente nihil soluta, enim quia.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="section6" class="d-flex flex-column align-items-center">
+        <div
+          class="section6Header d-flex flex-column align-items-center text-center mt-5"
+        >
+          <h2 class="section6HeaderH2">
+              O melhor suplemento para hidratar <br />
+              sua pele
+          </h2>
+          <span class="section6HeaderSpan">hidratação de verdade</span>
+        </div>
+        <div
+          class="medicine d-flex align-items-center justify-content-center w-100 p-5 gap-5"
+        >
+          <div class="medicineText d-flex flex-column align-items-center">
+            <p class="ms-4" style="color: rgb(80, 80, 80);">
+              Os ingredientes poderosos do Active Anti Ox trabalham <br />
+              juntos para:
+            </p>
+            <ul class="ul-medicine">
+              <li>Devolver a firmeza na pele crepe</li>
+              <li>Preencher as rugas e rachaduras da superfície da pele</li>
+              <li>Reduzir linhas finais do rosto, pescoço e colo</li>
+              <li>Restabelecer o brilho natural da pele</li>
+              <li>Hidratando a pele, de dentro para fora</li>
+            </ul>
+          </div>
+          <div class="medicineImg">
+            <img
+              src="./asset/image11.jpg"
+              alt="Caixa do remédio Active Anti Ox"
+            />
+          </div>
+        </div>
+        <div class="cardContainer d-flex mt-5">
+          <div class="card shadow-lg cardLeft d-flex align-items-center p-4">
+            <div class="cardTitle p-3">ESCOLHA SEU PACOTE</div>
+            <div
+              class="d-flex gap-2 mt-3 p-3"
+              role="group"
+              aria-label="Basic example"
+            >
+              <button  type="button" class="btn box1 btn-container">
+                <span>1</span><br />
+                CAIXA
+              </button>
+              <button  type="button" class="btn box3 btn-container isActive">
+                <span>3</span><br />
+                CAIXAS
+              </button>
+              <button  type="button" class="btn box6 btn-container">
+                <span>6</span><br />
+                CAIXAS
+              </button>
+            </div>
+            <div class="prices d-flex flex-column align-items-center  w-100">
+              <p class="mt-3 d-flex flex-column align-items-center justify-content-center align-content-center">
+                <strong class="pricePerBox">R$ 148,60 por caixa</strong>
+                <span class="eco">Economize R$ 136,20</span>
+              </p>
+              <p>
+                <span class="installments"><b>HOJE:</b> 12x <b>R$ 49,99</b></span>
+                <br />
+                <span class="inCash">ou R$ 445,80 à vista</span>
+              </p>
+            </div>
+            <button type="button" class="btn btn-lg buy">Comprar agora</button>
+          </div>
+          <div
+            class="card shadow cardRight d-flex align-items-center p-4 position-relative"
+          >
+            <img
+              class="discount position-absolute top-0 start-100 translate-middle"
+              src="./asset/badge.png"
+              alt=""
+            />
+            <div class="cardTitle cardTitleRight p-3">
+              <p>ASSINE E ECONOMIZE (OPCIONAL)</p>
+            </div>
+            <div class="cardRightText d-flex mt-3">
+              <ul
+                class="ul-box d-flex flex-column align-content-center justify-content-center gap-2 mt-2"
+              >
+                <li>Desconto Máximo Aplicado</li>
+                <li>Entrega Automática em sua Casa</li>
+                <li>Menor Preço Garantido / Sem Reajustes</li>
+                <li>Cancele Quando Qusier / Sem taxas</li>
+              </ul>
+            </div>
+            <div class="subscriber p-2">
+              <p>
+                <img id="subBox2" src="./asset/check-icon-mobile.png" alt="" />
+                <b>SIM!</b> Eu quero ser assinante e ganhar <br />
+                <span>DESCONTO!</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer p-5 d-flex flex-column align-items-center" style="color: rgb(157, 157, 157);">
+        <small class="mt-3">
+          Este produto não se destina a diagnosticar, tratar, curar ou prevenir qualquer doença. Os resultados podem
+          variar de pessoa para pessoa. Esses depoimentos <br> podem ser fictícios, esta informação não constitui
+          aconselhamento médico e não deve ser considerada como tal. Consulte o seu médico antes de modificar o <br>
+          seu regime médico regular. Este é um advetorial e não um artigo de notícia ou blog. Produto dispensado
+          da obrigatoriedade de registro conforme RDC <br>27/2010
+        </small>
+        <div class="mt-4 d-flex justify-content-evenly w-100" >
+          <img class="logoFooter" src="./asset/logo_footer-DoutorNature.svg" alt="logo Doutor Nature">
+          <small>©2022 Doutor Nature - Todos os Direitos Reservados - Política de Privacidade | Termos de Uso</small>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
