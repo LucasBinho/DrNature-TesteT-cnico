@@ -1,327 +1,306 @@
-/* * {
-    border: 1px solid red;
-} */
-
-
 .headerLogo {
-    padding: 0.8em;
-    height: 42px;
+  padding: 0.8em;
+  height: 42px;
 }
 
 .headerInfo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100vw;
-    background-image: url('./asset/background-desktop.png');
-    background-position: center;
-    background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  background-image: url("./asset/background-desktop.png");
+  background-position: center;
+  background-size: cover;
 }
 
 .headerInfo h2 {
-    text-align: center;
-    color: rgb(73, 72, 72);
-    font-weight: bold;
+  text-align: center;
+  color: rgb(73, 72, 72);
+  font-weight: bold;
 }
 
 .headerInfo p {
-    font-family: 'Roboto Slab', serif;
-   
+  font-family: "Roboto Slab", serif;
 }
 
 .imgArrow {
-    cursor: pointer;
-    width: 16px;
-    height: 20px;
+  cursor: pointer;
+  width: 16px;
+  height: 20px;
 }
 
-
 .section2Header {
-    text-align: center;
-    color: rgb(73, 72, 72);
-    font-weight: bold;
+  text-align: center;
+  color: rgb(73, 72, 72);
+  font-weight: bold;
 }
 
 .section2P {
-    font-family: 'Roboto Slab', serif;
-    font-size: 17px;
-    color: var(--salmao);
+  font-family: "Roboto Slab", serif;
+  font-size: 17px;
+  color: var(--salmao);
 }
 
 article {
-    color: var(--cinza);
+  color: var(--cinza);
 }
 
 .headerInfo p {
-    background-color: rgb(0, 170, 0);
-    color: var(--branco);
+  background-color: rgb(0, 170, 0);
+  color: var(--branco);
 }
 
 #arrowDown {
-    color: rgb(33, 33, 33);
+  color: rgb(33, 33, 33);
 }
 
 .doctor img {
-    height: 34.375rem;
-    width: 22.5rem;
+  height: 34.375rem;
+  width: 22.5rem;
 }
 
 .cardSection {
-    background-color: var(--azulMarinho);   
+  background-color: var(--azulMarinho);
 }
 
-
-
 .cardContainer {
-    padding: 3em; 
+  padding: 3em;
 }
 
 div.card.cardLeft {
-    border-radius: 15px;
-    margin-right: -1rem;
-    z-index: 100;
+  border-radius: 15px;
+  margin-right: -1rem;
+  z-index: 100;
 }
 
 .cardText {
-    color: var(--branco);
-    text-align: center;
-    
+  color: var(--branco);
+  text-align: center;
 }
 
 .cardText h2 {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .cardOffer {
-    font-family: effraBold;  
-    background-image: url(./asset/mark.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+  font-family: effraBold;
+  background-image: url(./asset/mark.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
-
 .cardTitle {
-    width: 20rem;
-    border-radius: 12px;
-    font-size: 23px;
-    font-weight: bold; 
-    text-align: center;
-    color: var(--branco); 
-    background-color: rgb(81, 81, 81);
+  width: 20rem;
+  border-radius: 12px;
+  font-size: 23px;
+  font-weight: bold;
+  text-align: center;
+  color: var(--branco);
+  background-color: rgb(81, 81, 81);
 }
 
 .isActive {
-    background-color: rgb(0, 148, 0)!important;
-    color: var(--branco)!important;
+  background-color: rgb(0, 148, 0) !important;
+  color: var(--branco) !important;
 }
 
-
-
-
 button.btn.btn-container {
-    
-    background-color: rgb(219, 219, 219);
-    height: 4.8rem;
-    width: 5.8rem;
-    border-radius: 8px;
-    font-size: 1em;
-    color: rgb(159, 159, 159);
-    line-height: 1.1;
+  background-color: rgb(219, 219, 219);
+  height: 4.8rem;
+  width: 5.8rem;
+  border-radius: 8px;
+  font-size: 1em;
+  color: rgb(159, 159, 159);
+  line-height: 1.1;
 }
 
 button.btn.btn-container span {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 button.btn.btn-lg.buy {
-    background-color: var(--salmao);
-    color: var(--branco);
-    font-weight: bold;
-    width: 16rem;
-    height: 2rem;
-    line-height: 0.5;
-    font-size: 18px;
-    border-radius: 20px;
+  background-color: var(--salmao);
+  color: var(--branco);
+  font-weight: bold;
+  width: 16rem;
+  height: 2rem;
+  line-height: 0.5;
+  font-size: 18px;
+  border-radius: 20px;
 }
 
 .prices span {
-    color: rgb(2, 174, 2);
+  color: rgb(2, 174, 2);
 }
 
-.pricePerBox, .installments {
-    color: var(--cinza)!important;
+.pricePerBox,
+.installments {
+  color: var(--cinza) !important;
 }
 
 div.card.cardRight {
-    top: 25px;
-    height: 23rem;
-    border-radius: 15px;
+  top: 25px;
+  height: 23rem;
+  border-radius: 15px;
 }
 
 .discount {
-    height: 4rem;
-    
+  height: 4rem;
 }
 
 div.card.cardRight img.start-100 {
-    left: 92%!important;
+  left: 92% !important;
 }
 
 div.card.cardRight img.translate-middle {
-    transform: translate(-52%,-70%)!important;
+  transform: translate(-52%, -70%) !important;
 }
 
 .cardTitle.cardTitleRight {
-    font-size: 20px;
-    height: 4.5rem;
+  font-size: 20px;
+  height: 4.5rem;
 }
 
 .cardTitle.cardTitleRight p {
-    line-height: 1;
+  line-height: 1;
 }
-
 
 ul.ul-box {
-    list-style-image: url(./asset/check-icon.png);
-    font-size: 15px;
-    color: rgb(159, 159, 159);
+  list-style-image: url(./asset/check-icon.png);
+  font-size: 15px;
+  color: rgb(159, 159, 159);
 }
 
-
 #section4 span {
-    color: var(--salmao);
+  color: var(--salmao);
 }
 
 .subscriber {
-    background-color: rgb(232, 226, 226);
-    width: 19rem;
-    
+  background-color: rgb(232, 226, 226);
+  width: 19rem;
 }
 
 .subscriber p {
-    margin-bottom: 0em;
-    font-size: 14px;
-    text-align: center;
+  margin-bottom: 0em;
+  font-size: 14px;
+  text-align: center;
 }
 
 .subscriber p span {
-    text-align: center;
+  text-align: center;
 }
 
 .warranty {
-    border-radius: 15px;
-    background-color: var(--branco);
+  border-radius: 15px;
+  background-color: var(--branco);
 }
 
 .warrantyText {
-    color: var(--cinza);
+  color: var(--cinza);
 }
 
-
 .warrantyImg img {
-   width: 9rem;
-   height: 9rem;
+  width: 9rem;
+  height: 9rem;
 }
 
 .results {
-    text-align: center;
+  text-align: center;
 }
 
 .resultsH2 {
-    color: var(--cinza);
-    font-weight: bold;
+  color: var(--cinza);
+  font-weight: bold;
 }
-
 
 .resultSpan {
-    font-family: 'Roboto Slab', serif;
-    font-size: 17px;
+  font-family: "Roboto Slab", serif;
+  font-size: 17px;
 }
 
-.examples1 img, .examples2 img {
-    width: 35%;
+.examples1 img,
+.examples2 img {
+  width: 35%;
 }
 
 .starText {
-    text-align: left;
-    color: rgb(133, 132, 132);
+  text-align: left;
+  color: rgb(133, 132, 132);
 }
 
 .questionText {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 #section5 {
-    background-color: var(--azulMarinho);
-    color: var(--branco);
+  background-color: var(--azulMarinho);
+  color: var(--branco);
 }
 
-#accordionItem{
-    background-color: var(--azulMarinho);
-    border: none;
-    
+#accordionItem {
+  background-color: var(--azulMarinho);
+  border: none;
 }
 
 #accordionItem .plus {
-        color: var(--salmao);
-        font-weight: bold;
-    }
+  color: var(--salmao);
+  font-weight: bold;
+}
 
 #accordionItem p {
-    background-color: var(--azulMarinho);
-    border-top: none;
-    color: var(--branco);
-    margin-bottom: 0.5rem;
+  background-color: var(--azulMarinho);
+  border-top: none;
+  color: var(--branco);
+  margin-bottom: 0.5rem;
 }
 
 .accordion-header {
-    border-bottom: 1px solid white;
+  border-bottom: 1px solid white;
 }
 
 .accordion-body {
-    color: var(--branco);
+  color: var(--branco);
 }
 
 .section6HeaderH2 {
-    color: var(--cinza);
-    font-weight: bold;
+  color: var(--cinza);
+  font-weight: bold;
 }
 
-.section6HeaderSpan {  
-    font-family: 'Roboto Slab', serif;
-    font-size: 17px;
-    color: var(--salmao);
+.section6HeaderSpan {
+  font-family: "Roboto Slab", serif;
+  font-size: 17px;
+  color: var(--salmao);
 }
 
 .medicineImg img {
-    width: 370px;
+  width: 370px;
 }
 
 ul.ul-medicine {
-    list-style: none;
-    color: rgb(80, 80, 80); 
-  }
-  
+  list-style: none;
+  color: rgb(80, 80, 80);
+}
+
 ul.ul-medicine li:before {
-    display: inline-block;
-    content: '\2022';
-    margin-right: 0.6rem;
-    height: 2rem;
-    font: 1.1em sans-serif;
-    font-weight: bolder;
-    color: rgb(2, 166, 2) 
-   }
+  display: inline-block;
+  content: "\2022";
+  margin-right: 0.6rem;
+  height: 2rem;
+  font: 1.1em sans-serif;
+  font-weight: bolder;
+  color: rgb(2, 166, 2);
+}
 
 footer {
-    background-color: #e4e4e4
+  background-color: #e4e4e4;
 }
 
 footer small {
-    font-size: 0.850rem;
+  font-size: 0.85rem;
 }
 
 .logoFooter {
-    height: 1.2rem;
+  height: 1.2rem;
 }
-
