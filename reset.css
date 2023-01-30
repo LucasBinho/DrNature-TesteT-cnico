@@ -13,3 +13,8 @@
     --brancoCinza: #F5F5F5;
     --branco: #fff;
 }
+
+@font-face {
+    font-family: effraBold;
+    src: url(./asset/fonts/effra_std_bd-webfont.woff);
+}
