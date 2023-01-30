@@ -29,6 +29,13 @@
    
 }
 
+.imgArrow {
+    cursor: pointer;
+    width: 16px;
+    height: 20px;
+}
+
+
 .section2Header {
     text-align: center;
     color: rgb(73, 72, 72);
